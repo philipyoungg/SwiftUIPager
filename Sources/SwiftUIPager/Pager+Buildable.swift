@@ -381,7 +381,7 @@ extension Pager: Buildable {
     /// Sets whether the page can be controlled by the keyboard
     ///
     /// - Parameter value: `true` if  keyboard control is allowed, `false`, otherwise. Defaults to `true`
-    public func allowsKeyboardControl(_ value: Bool = true) -> Self {
+    public func allowsKeyboardControl(_ value: Bool = false) -> Self {
         mutating(keyPath: \.allowsKeyboardControl, value: value)
     }
     

@@ -93,7 +93,7 @@ extension Pager {
         var allowsDragging: Bool = true
 
         /// `true` if  `Pager` can be controlled by the keyboard commands
-        var allowsKeyboardControl: Bool = true
+        var allowsKeyboardControl: Bool = false
         
         /// `true` if  `Pager`interacts with the digital crown
         var allowsDigitalCrownRotation: Bool = true
